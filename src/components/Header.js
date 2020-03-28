@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Menu from './Menu';
 import Hamburger from './Hamburger';
-import logo from '../images/logo.svg';
-import logoMobile from '../images/logo-mobile.svg';
+import logo from '../images/logo.gif';
+import logoMobile from '../images/logo.gif';
 import MenuMobile from './MenuMobile';
 
 class Header extends React.Component {
@@ -14,7 +14,7 @@ class Header extends React.Component {
     };
   }
 
-  toggleMenu = menuActive => {
+  toggleMenu = (menuActive) => {
     this.setState(prevState => ({
       menuActive: !prevState.menuActive,
     }));

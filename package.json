@@ -4,7 +4,7 @@
   "author": "Robert Austin <rob@jugglerdigital.com>",
   "license": "MIT",
   "scripts": {
-    "develop": "gatsby develop",
+    "develop": "gatsby develop --port 9090",
     "start": "npm run develop",
     "build": "gatsby build",
     "serve": "gatsby serve"

@@ -2,11 +2,12 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Serif',
-    description: 'my theme',
+    title: 'Redeemed Christian Church of God',
+    description: 'Church for all nations. Hosanna Chapel.',
     contact: {
-      phone: 'XXX XXX XXX',
-      email: 'zerostaticthemes@gmail.com',
+      phone: '',
+      email: 'rccghosanna2016@gmail.com',
+      address: 'Sornaisten Rantatie 33 D, Helsinki, Finland',
     },
     menuLinks: [
       {
@@ -56,7 +57,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: guid ? guid : 'UA-XXX-1',
+        trackingId: guid || 'UA-XXX-1',
         // Puts tracking script in the head instead of the body
         head: false,
       },
