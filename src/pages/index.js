@@ -22,7 +22,7 @@ const Home = (props) => {
         <div className="container">
           <h1>Watch Sunday service</h1>
           <Iframe
-            url="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F710398912312558%2Fvideos%2F149051939770632%2F&show_text=1&width=560"
+            url="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Frccghelsinkifi%2Fvideos%2F266848807669594%2F&width=0"
             width="1000px"
             height="600px"
             id="myId"
