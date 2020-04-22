@@ -20,9 +20,9 @@ const Home = (props) => {
       </Helmet>
       <div className="pb-4" style={{ paddingTop: 50 }}>
         <div className="container">
-          <h1>Watch Sunday service live</h1>
+          <h1>Watch Bible study live</h1>
           <Iframe
-            url="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Frccghelsinkifi%2Fvideos%2F220033452611871%2F&show_text=1&width=1280"
+            url="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Frccghelsinkifi%2Fvideos%2F526541584675552%2F&show_text=1width=1280"
             width="1000px"
             height="600px"
             id="myId"
