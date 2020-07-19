@@ -21,20 +21,13 @@ const Home = (props) => {
       <div className="pb-4" style={{ paddingTop: 50 }}>
         <div className="container">
           <h1>Watch Sunday service live</h1>
-
-          <Iframe
-            url="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Frccghelsinkifi%2Fvideos%2F304669527555384%2F&width=1280"
-            width="1000px"
-            height="600px"
-            id="myId"
-            allowTransparency="true"
-            allowFullScreen="true"
-            className="myClassname"
-            display="initial"
-            position="relative"
-          />
-    
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/CUi_dw4FAlc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe 
+          width="1000"
+          height="600"
+          src="https://www.youtube.com/embed/CUi_dw4FAlc" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen></iframe> 
         </div>
       </div>
     </Layout>
