@@ -24,7 +24,7 @@ const Home = (props) => {
          <iframe 
           width="1000"
           height="600"
-          src="https://www.youtube.com/embed/CQVXwRj8zXA" 
+          src="https://www.youtube.com/embed/lB2n9Hn2i0A" 
           frameborder="0" 
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen></iframe> 
