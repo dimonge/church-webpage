@@ -20,12 +20,11 @@ const Home = (props) => {
       </Helmet>
       <div className="pb-4" style={{ paddingTop: 50 }}>
         <div className="container">
-          <h1>Hosanna Chapel Women's fellowship</h1>
-          <h3>Living Room Intimacy Prayer Night</h3>
+          <h1>Watch Sunday service live</h1>
          <iframe 
           width="1000"
           height="600"
-          src="https://www.youtube.com/embed/RHNAcBc8RXA" 
+          src="https://www.youtube.com/embed/FZBjqFLu1Kk" 
           frameborder="0" 
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen></iframe> 
