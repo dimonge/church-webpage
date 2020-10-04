@@ -20,11 +20,11 @@ const Home = (props) => {
       </Helmet>
       <div className="pb-4" style={{ paddingTop: 50 }}>
         <div className="container">
-          <h1>Watch Bible Study live</h1>
+          <h1>Watch Sunday service live</h1>
          <iframe 
           width="1000"
           height="600"
-          src="https://www.youtube.com/embed/VkYsNm3G19I" 
+          src="https://www.youtube.com/embed/txgqtNhYnM4" 
           frameborder="0" 
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen></iframe> 
