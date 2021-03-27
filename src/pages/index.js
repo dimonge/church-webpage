@@ -20,7 +20,7 @@ const Home = (props) => {
       </Helmet>
       <div className="pb-4" style={{ paddingTop: 50 }}>
         <div className="container">
-          <h1>Watch Sunday service live</h1>
+          <h1>Watch Change for Success 2021 live</h1>
          <iframe 
           width="1000"
           height="600"
